@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.load{
+    animation: slide 2s;
+}
+
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s infinite;
+}
+
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 5px;
+}
+
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    font-size: 20px;
+}
+
+@keyframes slide{
+    0%{
+       background-image: url(imagens/furniture-ga8b6f7d94_1920.jpg);
+    }
+20%{
+       background-image: url(imagens/furniture-ga8b6f7d94_1920.jpg);
+}
+
+20.01%{
+    background-image: url(imagens/office-g855bf473d_1920.jpg);
+ }
+40%{
+    background-image: url(imagens/office-g855bf473d_1920.jpg);
+}
+
+40.01%{
+    background-image: url(imagens/study-gde3129a36_1920.jpg);
+ }
+60%{
+    background-image: url(imagens/study-gde3129a36_1920.jpg);
+}
+
+60.01%{
+    background-image: url(imagens/teamwork-g65137c08e_1920.jpg);
+ }
+80%{
+    background-image: url(imagens/teamwork-g65137c08e_1920.jpg);
+}
+
+80.01%{
+    background-image: url(imagens/tasks-g48eca5a34_1920.jpg);
+ }
+100%{
+    background-image: url(imagens/tasks-g48eca5a34_1920.jpg);
+}
+
+}
