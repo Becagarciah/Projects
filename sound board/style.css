@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Special Elite', cursive;
+    background-image: url(img/halloween-gd0465eae2_1920.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: blueviolet;
+    border-color: black;
+    border-radius: 5px;
+    color: rgb(0, 4, 7);
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn.haver{
+    opacity: 0.9;
+}
